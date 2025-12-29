@@ -1,0 +1,91 @@
+body{
+    background-color:rgb(15, 15, 71);
+}
+/* h-offset, v-offset, blur, color */
+.body{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    margin-top:100px;
+    align-content:center;
+}
+#stone_div{
+    width:200px;
+    height:200px;
+    border:2px solid black;
+    border-radius:50%;
+    background-size:cover;
+    background-image:url("stone.png");
+}
+#paper_div{
+    width:200px;
+    height:200px;
+    border:2px solid #000000;
+    border-radius:50%;
+    background-size:cover;
+    background-image:url("paper.png");
+}
+#sessor_div{
+    width:200px;
+    height:200px;
+    background-size:cover;
+    border:2px solid black;
+    border-radius:50%;
+    background-image:url("sessor.png");
+}
+#stone_div:hover,#paper_div:hover,#sessor_div:hover{
+    border:5px solid white;
+    opacity:0.7;
+}
+.scorecard{
+    margin-top:100px;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    text-align:center;
+    color:white;
+    font-size:30px;
+}
+.result{
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:row;
+    font-size:30px;
+}
+.first_result{
+    width:250px;
+    height:50px;
+    background-color:rgb(10, 10, 44);
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    color:white;
+    border:2px solid rgb(244, 243, 243);
+    border-radius:5px;
+}
+.almost_body{
+    display:flex;
+    justify-content:center;
+    background-color:rgb(12, 12, 42);
+    
+}
+h2{
+    text-align:center;
+    color:white;
+    font-size:40px;
+    text-decoration:underline;
+    border:2px solid white;
+    font-size: 40px;
+    color: #f4f2f2;
+    text-shadow: 2px 2px 4px #6dfbc2; 
+}
+select{
+    height:20px;
+    width:200px;
+    margin-top:50px;
+    position:absolute;
+    right:100px;
+
+}
